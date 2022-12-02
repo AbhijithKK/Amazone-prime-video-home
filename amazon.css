@@ -1,0 +1,465 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.head {
+  background-color: rgb(43, 42, 42);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.container ul {
+  margin-left: -10px;
+
+}
+
+li {
+  list-style: none;
+  padding-left: 25px;
+  float: left;
+  color: white;
+
+}
+
+.container {
+  margin-left: -1077px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+select {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+
+.container select:hover {
+  cursor: pointer;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+}
+
+/* #################### */
+
+.catogaryDrop {
+  width: 101%;
+  height: 251px;
+  background-color: #5c5c5c;
+  position: absolute;
+  margin-left: -28%;
+  padding-left: -32px;
+  margin-top: 27px;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.catogary {
+  position: relative;
+  display: inline-block;
+}
+
+.catogery:hover .catogaryDrop {
+  display: block;
+
+}
+
+/* #################### */
+.catagoryContent {
+  position: relative;
+}
+
+.catogary-left {
+  width: 50%;
+  margin-left: 385px;
+  margin-top: 30px;
+  float: left;
+  position: absolute;
+
+
+}
+
+.catogary-right {
+  width: 50%;
+  float: left;
+  position: absolute;
+  margin-left: 1104px;
+
+}
+
+
+.catogary-left img {
+  width: 112px;
+  margin-top: 2px;
+  margin-left: 5px;
+  border: 2px;
+
+}
+
+.line {
+  border-left: 3px solid rgb(119, 119, 119);
+  height: 200px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 915px;
+}
+
+table {
+  padding-top: 15px;
+  border-spacing: 5px;
+  margin-left: 10px;
+
+}
+
+th {
+  color: white;
+  font-weight: bold;
+
+}
+
+td {
+  color: rgb(153, 152, 152);
+  padding-left: 30px;
+
+}
+
+td:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.catogary-left img:hover {
+  cursor: pointer;
+  border-color: #f9f9f9;
+  border-style: solid;
+  transition: ease-in 0.4s;
+
+
+}
+
+/* 0000############# drop down ################## */
+.rightNav {
+  float: right;
+  margin-top: -85px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dropbtn img {
+  width: 20px;
+}
+
+.searchicon {
+  width: 20px;
+}
+
+.dropbtn {
+  background: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#dropbtn1:hover {
+  background: none;
+}
+
+/* ##########  nav bar end ############ */
+button {
+  background-color: #1d80b9;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: "Amazon Ember Light" !important;
+}
+
+button:hover {
+  background-color: #178bce;
+  cursor: pointer;
+}
+
+/* ######################### */
+
+
+
+.image {
+  background-image: linear-gradient(to right, black 40%, transparent 58%), url(./Amazonimages/prime\ background.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 600px;
+
+}
+
+.main {
+
+
+
+  height: 600px;
+
+
+
+
+
+}
+
+.buttion1 {
+  padding: 20px 60px;
+  font-family: "Amazon Ember Light" !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.text-style {
+
+  color: white;
+  font-family: "mazon Ember Light" !important;
+  letter-spacing: 3px;
+}
+
+.content1 {
+  padding-left: 110px;
+  padding-top: 115px;
+}
+
+/* ############################################ */
+/* #####################SECOND SECTION############### */
+.main2 {
+  background-image: linear-gradient(to left, black 55%, transparent 80%), url(./Amazonimages/background2.jpg);
+  background-repeat: no-repeat;
+  height: 55vh;
+}
+
+.style {
+  margin-left: 45%;
+  padding-top: 60px;
+}
+
+/* ###############THIRD SECTION#####################3 */
+.main3 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left-side {
+  width: 50%;
+  float: left;
+
+
+
+}
+
+.right-side {
+  width: 50%;
+
+  float: right;
+
+
+}
+
+.channel-image {
+  height: 150px;
+  width: 222px;
+  padding: 10px 10px;
+  transition: ease-in-out .2s;
+  box-shadow: rgb(41, 49, 56);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 100px;
+}
+
+.text-style-main3 {
+
+
+  font-family: "mazon Ember Light" !important;
+  letter-spacing: 2px;
+}
+
+.channel-image:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 1px 1px 5px 5px rgb(86, 88, 55);
+
+}
+
+.content1 {
+  padding-top: 150px;
+
+}
+
+/* ###########################################  */
+/* #################SECTION FOUR################### */
+.main4 {
+  background-image: linear-gradient(to left, black 58%, transparent 65%), url(./Amazonimages/background4.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+/* ############################################# */
+/* #####################SECTION FIVE################ */
+.main5 {
+  background-image: linear-gradient(to right, black 58%, transparent 60%), url(./Amazonimages/bg5.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 600px;
+}
+
+.style1 {
+  padding-left: 80px;
+  padding-top: 60px;
+}
+
+#text-main5 {
+  max-width: 50rem;
+}
+
+/* ################################################# */
+/* ##################FOOTER####################### */
+footer {
+  height: 200px;
+
+  background-color: #222 !important;
+}
+
+.foot-text {
+  text-align: center;
+  color: rgb(94, 88, 88);
+
+}
+
+.foot-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #1d80b9;
+}
+
+footer a:hover {
+  color: #1097e6;
+}
+
+/* ########################################## */
+/* ##################TOP RIGHT SIDE ELEMENTS######### */
+
+
+.search {
+  border: 0;
+  height: 0;
+  border-radius: 0;
+  width: 0;
+  display: none;
+}
+
+.searchimg {
+  height: 18px;
+  width: 20px;
+}
+
+/* .search:hover {
+  cursor: pointer;
+  width: 50px;
+  height: 20px;
+  border: 0;
+  border-radius: 5px;
+  
+} */
+.select1 {
+  background: none;
+  border: none;
+  /* background-image: url(./Amazonimages/man-line-icon.png); */
+}
+
+
+/* ###########################################   */
+
+section {
+  padding-top: 100px;
+}
+
+.hoverMain {
+  background-color: aqua;
+  height: 300px;
+  margin-top: -155px;
+  margin-left: -110px px;
+
+}
+
+.hoverMain h1 {
+  color: white;
+
+}
+
+.hoverContent {
+  margin: 0%;
+  padding: 0%;
+  padding-top: -20px;
+}
